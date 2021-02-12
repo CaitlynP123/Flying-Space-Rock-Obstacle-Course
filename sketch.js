@@ -80,6 +80,9 @@ function setup() {
 
 function draw() {
   background("white")
+  
+  camera.position.x = 100
+  camera.position.y = asteroid.y
 
   edge1.visible = false
   edge2.visible = false
